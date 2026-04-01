@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://revivals47.github.io/hayate-app/sitemap.xml
