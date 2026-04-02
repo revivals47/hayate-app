@@ -9,7 +9,7 @@
             <sparkle:shortVersionString>2.4.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/revivals47/hayate-app/releases/download/v2.4.0/Hayate-2.4.0.dmg" length="13841014" type="application/octet-stream" sparkle:edSignature="OzlveHDR8R9zocKrmi8HW6vHFbXasQMDtPHbj1JtGFcQt+ZEiPlknn2UHhcAQ8T2cxHAc+j3w1OUsxxAWcNhBw=="/>
+            <enclosure url="https://github.com/revivals47/hayate-app/releases/download/v2.4.0/Hayate-2.4.0.dmg" length="9405169" type="application/octet-stream" sparkle:edSignature="YUsHbSYZkH83LU71OjaXbQUwNC3UNJMbco0QmWQJtpxfw/HhloY9TamsWDVBkY0ASBPDYn0L9lSmcxA/jXKEDQ=="/>
         </item>
         <item>
             <title>2.3.1</title>
