@@ -3,24 +3,6 @@
     <channel>
         <title>Hayate</title>
         <item>
-            <title>2.4.1</title>
-            <pubDate>Wed, 02 Apr 2026 18:00:00 +0900</pubDate>
-            <sparkle:version>241</sparkle:version>
-            <sparkle:shortVersionString>2.4.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/revivals47/hayate-app/releases/download/v2.4.1/Hayate-2.4.1.dmg" length="8796713" type="application/octet-stream" sparkle:edSignature="qR7+hnB7ms+NfBnF8A9N0tSRMioRmEnbgNZrgSzVOe2ajAiWZQSh0DMAVu/IPjDGBcMKtHLrEBhYw9IgtmqxBw=="/>
-        </item>
-        <item>
-            <title>2.4.0</title>
-            <pubDate>Wed, 02 Apr 2026 16:00:00 +0900</pubDate>
-            <sparkle:version>240</sparkle:version>
-            <sparkle:shortVersionString>2.4.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/revivals47/hayate-app/releases/download/v2.4.0/Hayate-2.4.0.dmg" length="8795754" type="application/octet-stream" sparkle:edSignature="yVX6S4sVpkPH0GUXUFOM1u8RJ//Hdwp495J+nHCqoJFhJwRU1TyZyrDj+8A9NSa/ny9eM38m6+SDtbuDX/wdDQ=="/>
-        </item>
-        <item>
             <title>2.3.1</title>
             <pubDate>Tue, 01 Apr 2026 22:45:00 +0900</pubDate>
             <sparkle:version>231</sparkle:version>
