@@ -8,7 +8,7 @@
     <meta name="keywords" content="macOS, file manager, Finder alternative, Rust, SwiftUI, multi-pane, thumbnails, fast, native, Hayate, Mac">
     <!-- OGP -->
     <meta property="og:title" content="Hayate - A Better File Manager for macOS">
-    <meta property="og:description" content="Native macOS file manager built with Rust + SwiftUI. Handles 10 million files. 3.4GB RAM. Instant Cmd+A. Multi-pane layouts, powerful search.">
+    <meta property="og:description" content="Native macOS file manager built with Rust + SwiftUI. 7x less memory than Finder. Instant thumbnails, multi-pane layouts, powerful search.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://revivals47.github.io/hayate-app/">
     <meta property="og:image" content="https://revivals47.github.io/hayate-app/assets/screenshot-4pane.jpg">
@@ -16,7 +16,7 @@
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Hayate - A Better File Manager for macOS">
-    <meta name="twitter:description" content="Native macOS file manager. 10 million files, 3.4GB RAM. Built with Rust + SwiftUI.">
+    <meta name="twitter:description" content="Native macOS file manager. 7x less memory than Finder. Built with Rust + SwiftUI.">
     <meta name="twitter:image" content="https://revivals47.github.io/hayate-app/assets/screenshot-4pane.jpg">
     <link rel="icon" type="image/png" href="assets/favicon.png">
     <link rel="canonical" href="https://revivals47.github.io/hayate-app/">
@@ -128,7 +128,7 @@
             </h1>
 
             <p class="text-xl md:text-2xl text-gray-400 max-w-2xl mx-auto mb-4" data-i18n="hero.sub">
-                <span class="text-white font-semibold">10 million files</span> in gallery view.
+                <span class="text-white font-semibold">Instant thumbnails</span> for thousands of images.
                 <span class="text-white font-semibold">Multi-pane</span> layouts.
                 <span class="text-white font-semibold">Native</span> macOS experience.
             </p>
@@ -222,19 +222,6 @@
                             </div>
                         </div>
 
-                        <div class="pt-4 border-t border-white/5">
-                            <div class="flex justify-between text-sm mb-2">
-                                <span class="text-white font-semibold">10,000,000 files</span>
-                                <span class="text-red-400">Finder: impossible</span>
-                            </div>
-                            <div class="w-full bg-dark-600 rounded-full h-3">
-                                <div class="bg-gradient-to-r from-hayate-500 to-hayate-300 h-3 rounded-full stat-bar" style="width: 100%"></div>
-                            </div>
-                            <div class="flex justify-between text-sm mt-1">
-                                <span class="text-hayate-400 font-semibold">Hayate: 3.43 GB RAM, smooth scroll</span>
-                                <span class="text-hayate-300 font-bold">Only Hayate</span>
-                            </div>
-                        </div>
                     </div>
                 </div>
 
@@ -314,8 +301,8 @@
 
             <!-- Tech summary -->
             <div class="bg-dark-800 rounded-2xl border border-white/5 p-8 text-center">
-                <h3 class="text-lg font-semibold mb-2">Rust + C + SwiftUI/AppKit native engine</h3>
-                <p class="text-sm text-gray-500">getattrlistbulk for bulk I/O. C buffer direct access. Custom O(visible) grid layout. ARC-managed buffer ownership. No Electron. No web views.</p>
+                <h3 class="text-lg font-semibold mb-2">Rust-powered native engine</h3>
+                <p class="text-sm text-gray-500">Built with Rust for computation and SwiftUI/AppKit for the UI. No Electron. No web views.</p>
             </div>
         </div>
     </section>
@@ -574,11 +561,8 @@
                             <span class="text-sm text-gray-500">2026-04-02</span>
                         </div>
                         <ul class="space-y-1.5 text-sm text-gray-400">
-                            <li class="flex gap-2"><span class="text-hayate-400">+</span> <strong class="text-white">10,000,000 files</strong> in gallery view &mdash; smooth scrolling, 3.43 GB RAM</li>
-                            <li class="flex gap-2"><span class="text-hayate-400">+</span> Cmd+A instant on any number of files (inverted selection + AppKit bypass)</li>
                             <li class="flex gap-2"><span class="text-hayate-400">+</span> Directory cache &mdash; instant back-navigation for visited directories</li>
-                            <li class="flex gap-2"><span class="text-hayate-400">+</span> FixedGridLayout: O(visible) custom layout, 78 lines of pure arithmetic</li>
-                            <li class="flex gap-2"><span class="text-hayate-400">+</span> BufferLease: ARC-managed C buffer ownership (zero double-free crashes)</li>
+                            <li class="flex gap-2"><span class="text-hayate-400">+</span> Improved gallery performance for large directories</li>
                             <li class="flex gap-2"><span class="text-hayate-400">+</span> Custom hotkeys (33 bindings, conflict detection, preferences UI)</li>
                             <li class="flex gap-2"><span class="text-hayate-400">+</span> Enhanced archiver: ZIP, tar.gz, 7z support</li>
                             <li class="flex gap-2"><span class="text-hayate-400">+</span> Smart Folder mdfind integration with FileManager fallback</li>
