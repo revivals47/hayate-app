@@ -3,6 +3,15 @@
     <channel>
         <title>Hayate</title>
         <item>
+            <title>2.4.10</title>
+            <pubDate>Thu, 24 Sep 2026 14:37:45 +0900</pubDate>
+            <sparkle:version>250</sparkle:version>
+            <sparkle:shortVersionString>2.4.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/revivals47/hayate-app/releases/download/v2.4.10/Hayate-2.4.10.dmg" length="9729174" type="application/octet-stream" sparkle:edSignature="thmHzyCzWGj3rSFSWv9nGR1Yr0A5/Ej/JC+WKjEZLhzrN0Vqs53xhRC1Gr4FEiYgoX0MT+N68m2Cv87H4sscDw=="/>
+        </item>
+        <item>
             <title>2.4.9</title>
             <pubDate>Sat, 04 Jul 2026 19:07:07 +0900</pubDate>
             <sparkle:version>249</sparkle:version>
