@@ -3,6 +3,23 @@
     <channel>
         <title>Hayate</title>
         <item>
+            <title>2.4.14</title>
+            <pubDate>Sat, 07 Nov 2026 10:17:38 +0900</pubDate>
+            <sparkle:version>254</sparkle:version>
+            <sparkle:shortVersionString>2.4.14</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<ul>
+<li>SFTP: uploading never overwrites a file on the server without asking; a dropped connection no longer leaves a half-written file on either side</li>
+<li>SFTP: the window no longer freezes while a file is uploaded or downloaded</li>
+<li>Folders that cannot be read (failing drive, lost network volume, no permission) show an error instead of looking empty, and a folder read only part-way is marked as incomplete</li>
+<li>Cancel now waits until the running copy or move has really stopped before the next one starts; a cancelled move never removes its source</li>
+<li>Undo / Redo: if some files cannot be undone, the rest still are, and the failed ones stay in the history to try again</li>
+<li>ZIP: damaged archives with impossible sizes no longer crash Hayate or fill the disk, and extracting never writes through a link that is already in the destination folder</li>
+</ul>]]></description>
+            <enclosure url="https://github.com/revivals47/hayate-app/releases/download/v2.4.14/Hayate-2.4.14.dmg" length="9914299" type="application/octet-stream" sparkle:edSignature="7jG8VPS7K9rc06b/lG0nZvBCdhEcra8v3ZF4odzKEQB9tNxJwwGsTWR2bZDIGZdfCZ9IHONthdOpn527SiElAw=="/>
+        </item>
+        <item>
             <title>2.4.13</title>
             <pubDate>Thu, 05 Nov 2026 16:32:53 +0900</pubDate>
             <sparkle:version>253</sparkle:version>
