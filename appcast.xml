@@ -3,6 +3,19 @@
     <channel>
         <title>Hayate</title>
         <item>
+            <title>2.4.15</title>
+            <pubDate>Tue, 24 Nov 2026 15:31:02 +0900</pubDate>
+            <sparkle:version>255</sparkle:version>
+            <sparkle:shortVersionString>2.4.15</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<ul>
+<li>New option in Settings → Appearance: show sizes in KiB, MiB, GiB (1024-based, like `ls -lh`) instead of KB, MB, GB</li>
+<li>ZIP: archives made by Hayate no longer include macOS metadata from inside folders (.DS_Store, __MACOSX, ._ files, .Spotlight-V100, .Trashes and similar), so they look clean on Windows and Linux. Items you select directly are still included</li>
+</ul>]]></description>
+            <enclosure url="https://github.com/revivals47/hayate-app/releases/download/v2.4.15/Hayate-2.4.15.dmg" length="9918317" type="application/octet-stream" sparkle:edSignature="yKsOqj7AbvnaHwBDs9W1lZA41Z9G8W0N2peo3lR61rT+x8Ajr02AXF1AlO4jTZa3Az8SBp6qD0N7e/b13hdoBw=="/>
+        </item>
+        <item>
             <title>2.4.14</title>
             <pubDate>Sat, 07 Nov 2026 10:17:38 +0900</pubDate>
             <sparkle:version>254</sparkle:version>
