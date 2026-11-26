@@ -3,6 +3,24 @@
     <channel>
         <title>Hayate</title>
         <item>
+            <title>2.4.20</title>
+            <pubDate>Thu, 26 Nov 2026 19:26:04 +0900</pubDate>
+            <sparkle:version>260</sparkle:version>
+            <sparkle:shortVersionString>2.4.20</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<ul>
+<li>Built-in terminal is back: View ▸ Toggle Terminal (⌃`). The menu item had been lost in an earlier update</li>
+<li>The terminal is now a full terminal emulator (SwiftTerm): typing no longer duplicates characters or blanks the screen, and full-screen programs like vim, top and less work</li>
+<li>`cd` in the terminal moves the file list along, and navigating in the file list changes the terminal's folder (only at the prompt — never typed into vim, ssh or another running program)</li>
+<li>The terminal starts with your usual environment (SSH agent, PATH, TMPDIR …), and its shell ends when Hayate quits</li>
+<li>Changes to hidden files no longer show "changed" banners or reload the list while hidden files are not shown (the terminal's history file flashed a banner after every command)</li>
+<li>With several panes, clicking the terminal no longer switches to pane 1; in icon view, double-clicking below the items no longer opens the selected file</li>
+<li>Help ▸ Third-Party Notices lists the open-source components Hayate includes</li>
+</ul>]]></description>
+            <enclosure url="https://github.com/revivals47/hayate-app/releases/download/v2.4.20/Hayate-2.4.20.dmg" length="12798975" type="application/octet-stream" sparkle:edSignature="4cUD8KHPbKdSYDzY2ECNeq4tmUnJfm8Xk/YzLzgKztTK+PcJs3X/45qLTyLub1i2QYcBkTajV+tVpVLb/ZY7CA=="/>
+        </item>
+        <item>
             <title>2.4.19</title>
             <pubDate>Thu, 26 Nov 2026 16:49:45 +0900</pubDate>
             <sparkle:version>259</sparkle:version>
