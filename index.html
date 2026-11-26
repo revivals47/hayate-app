@@ -167,8 +167,7 @@
                 <span class="gradient-text" data-i18n="bench.titleHighlight">Measure it.</span>
             </h2>
             <p class="text-gray-400 text-center mb-16 max-w-xl mx-auto" data-i18n="bench.desc">
-                Automated benchmarks on MacBook Air M1 (16GB). Same directory, same conditions.
-                Hayate runs first with cold cache &mdash; the most disadvantageous order.
+                Automated benchmarks on MacBook Air M1 (16GB), macOS 26.3.1, March 2026. Same directories; Finder and Hayate run one at a time (Finder first), caches not cleared.
             </p>
 
             <!-- TTI Comparison -->
@@ -177,16 +176,16 @@
                 <!-- TTI Chart -->
                 <div class="bg-dark-800 rounded-2xl border border-white/5 p-8">
                     <h3 class="text-lg font-semibold mb-1" data-i18n="bench.tti">Time to Interactive</h3>
-                    <p class="text-sm text-gray-500 mb-6" data-i18n="bench.ttiDesc">Time until you can scroll and select files</p>
+                    <p class="text-sm text-gray-500 mb-6" data-i18n="bench.ttiDesc">Time until the first files appear and the list can be scrolled</p>
 
                     <div class="space-y-6">
                         <div>
                             <div class="flex justify-between text-sm mb-2">
                                 <span class="text-gray-400">10,000 files</span>
-                                <span class="text-gray-500">Finder: 1,485ms</span>
+                                <span class="text-gray-500">Finder: 1,222ms</span>
                             </div>
                             <div class="w-full bg-dark-600 rounded-full h-3">
-                                <div class="bg-hayate-500 h-3 rounded-full stat-bar" style="width: 9%"></div>
+                                <div class="bg-hayate-500 h-3 rounded-full stat-bar" style="width: 11%"></div>
                             </div>
                             <div class="flex justify-between text-sm mt-1">
                                 <span class="text-hayate-400 font-semibold">Hayate: 134ms</span>
@@ -240,13 +239,13 @@
                                     <div class="w-full bg-dark-600 rounded-full h-3">
                                         <div class="bg-gray-500 h-3 rounded-full" style="width: 100%"></div>
                                     </div>
-                                    <span class="text-xs text-gray-500 mt-1">Finder: 1,856 MB</span>
+                                    <span class="text-xs text-gray-500 mt-1">Finder: 193 MB</span>
                                 </div>
                                 <div class="flex-1">
                                     <div class="w-full bg-dark-600 rounded-full h-3">
-                                        <div class="bg-hayate-500 h-3 rounded-full" style="width: 14%"></div>
+                                        <div class="bg-hayate-500 h-3 rounded-full" style="width: 97%"></div>
                                     </div>
-                                    <span class="text-xs text-hayate-400 mt-1">Hayate: 256 MB</span>
+                                    <span class="text-xs text-hayate-400 mt-1">Hayate: 187 MB</span>
                                 </div>
                             </div>
                         </div>
@@ -260,13 +259,13 @@
                                     <div class="w-full bg-dark-600 rounded-full h-3">
                                         <div class="bg-gray-500 h-3 rounded-full" style="width: 100%"></div>
                                     </div>
-                                    <span class="text-xs text-gray-500 mt-1">Finder: 2,059 MB</span>
+                                    <span class="text-xs text-gray-500 mt-1">Finder: 723 MB</span>
                                 </div>
                                 <div class="flex-1">
                                     <div class="w-full bg-dark-600 rounded-full h-3">
-                                        <div class="bg-hayate-500 h-3 rounded-full" style="width: 13%"></div>
+                                        <div class="bg-hayate-500 h-3 rounded-full" style="width: 30%"></div>
                                     </div>
-                                    <span class="text-xs text-hayate-400 mt-1">Hayate: 275 MB</span>
+                                    <span class="text-xs text-hayate-400 mt-1">Hayate: 217 MB</span>
                                 </div>
                             </div>
                         </div>
@@ -280,20 +279,20 @@
                                     <div class="w-full bg-dark-600 rounded-full h-3">
                                         <div class="bg-gray-500 h-3 rounded-full" style="width: 100%"></div>
                                     </div>
-                                    <span class="text-xs text-gray-500 mt-1">Finder: 2,347 MB</span>
+                                    <span class="text-xs text-gray-500 mt-1">Finder: 924 MB</span>
                                 </div>
                                 <div class="flex-1">
                                     <div class="w-full bg-dark-600 rounded-full h-3">
-                                        <div class="bg-hayate-500 h-3 rounded-full" style="width: 15%"></div>
+                                        <div class="bg-hayate-500 h-3 rounded-full" style="width: 35%"></div>
                                     </div>
-                                    <span class="text-xs text-hayate-400 mt-1">Hayate: 359 MB</span>
+                                    <span class="text-xs text-hayate-400 mt-1">Hayate: 326 MB</span>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <p class="text-xs text-gray-600 mt-6" data-i18n="bench.memNote">
-                        500K files: Finder uses 6.5x more memory. Measured on macOS 26.4, April 2026.
+                        500K files: Finder uses 2.8x more memory and shows the rainbow cursor.
                     </p>
                 </div>
 
