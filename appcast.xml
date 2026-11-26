@@ -3,6 +3,20 @@
     <channel>
         <title>Hayate</title>
         <item>
+            <title>2.4.18</title>
+            <pubDate>Thu, 26 Nov 2026 14:44:38 +0900</pubDate>
+            <sparkle:version>258</sparkle:version>
+            <sparkle:shortVersionString>2.4.18</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<ul>
+<li>Sidebar folder tree: smaller indentation, so names stay readable several levels deep</li>
+<li>Hover over a folder in the sidebar tree to see its full path</li>
+<li>Open With ▸ Change Default App…: choose the app that opens every file of that type (like Finder's "Change All"), including Other… to pick any app. The current default is marked in the Open With list</li>
+</ul>]]></description>
+            <enclosure url="https://github.com/revivals47/hayate-app/releases/download/v2.4.18/Hayate-2.4.18.dmg" length="10164438" type="application/octet-stream" sparkle:edSignature="8Lj7FfeN99RelwvtW5dWhaoy5CnUoQk4nwBqJxxURKxq2jZfVuDuVTBheZ6jLb0oRcRQVU6kHlqF0qvDKElgBQ=="/>
+        </item>
+        <item>
             <title>2.4.17</title>
             <pubDate>Thu, 26 Nov 2026 01:33:53 +0900</pubDate>
             <sparkle:version>257</sparkle:version>
