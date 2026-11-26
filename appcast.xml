@@ -3,6 +3,22 @@
     <channel>
         <title>Hayate</title>
         <item>
+            <title>2.4.23</title>
+            <pubDate>Thu, 26 Nov 2026 20:56:22 +0900</pubDate>
+            <sparkle:version>263</sparkle:version>
+            <sparkle:shortVersionString>2.4.23</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<ul>
+<li>Smart Folder results now appear in multi-pane layouts, in the pane they were run in</li>
+<li>Each pane shows the Git branch of its own folder; Git badges update as soon as status arrives</li>
+<li>Search scopes, filters, sort fields and other labels that were always English are translated; three missing Korean/Chinese texts added</li>
+<li>Settings ▸ Keyboard Shortcuts lists the keys Hayate actually uses (shortcuts cannot be changed yet; editing did not take effect)</li>
+<li>Script plugins receive the fileSelect and directoryChange events they declare</li>
+</ul>]]></description>
+            <enclosure url="https://github.com/revivals47/hayate-app/releases/download/v2.4.23/Hayate-2.4.23.dmg" length="12146361" type="application/octet-stream" sparkle:edSignature="vsx7mhl/LQlRN2+M6HaLVMcssNMCl4zhTIvHOiHTwPhk95WFE1w0MlSW/K6dBcl/hkQ6J5iYBOPHxpBfugG+Bg=="/>
+        </item>
+        <item>
             <title>2.4.22</title>
             <pubDate>Thu, 26 Nov 2026 20:23:48 +0900</pubDate>
             <sparkle:version>262</sparkle:version>
