@@ -1033,7 +1033,9 @@
                     entry.target.classList.add('visible');
                 }
             });
-        }, { threshold: 0.1 });
+        // threshold 0: a section taller than ten screens (the changelog) never had 10%
+        // of itself on screen at once, so it stayed invisible
+        }, { threshold: 0 });
 
         document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
 
