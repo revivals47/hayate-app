@@ -3,6 +3,22 @@
     <channel>
         <title>Hayate</title>
         <item>
+            <title>2.4.19</title>
+            <pubDate>Thu, 26 Nov 2026 16:49:45 +0900</pubDate>
+            <sparkle:version>259</sparkle:version>
+            <sparkle:shortVersionString>2.4.19</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<ul>
+<li>ZIP browsing works again in list and icon view: double-clicking a .zip shows its contents (it kept showing the surrounding folder)</li>
+<li>Right-click menu: items that do not apply are greyed out again (for example Rename with several files selected)</li>
+<li>With more than 1,000 items selected, Share, Tags, Plugins and Put Back are disabled instead of acting on only part of the selection</li>
+<li>Dropping a folder into one of its own subfolders is refused quietly instead of failing with an error</li>
+<li>Fixed an inconsistent sort order for items with equal size, date, kind or permissions when sorting descending</li>
+</ul>]]></description>
+            <enclosure url="https://github.com/revivals47/hayate-app/releases/download/v2.4.19/Hayate-2.4.19.dmg" length="10168750" type="application/octet-stream" sparkle:edSignature="yWiroj4Cc1nsW8Wfq3KwkPEcyl8DzVqVSwjMwH5pHpOqga1AN5jYMwdaF289K3DKdgQD8TTT+9CyOLI0UJPKDQ=="/>
+        </item>
+        <item>
             <title>2.4.18</title>
             <pubDate>Thu, 26 Nov 2026 14:44:38 +0900</pubDate>
             <sparkle:version>258</sparkle:version>
