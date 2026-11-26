@@ -3,6 +3,20 @@
     <channel>
         <title>Hayate</title>
         <item>
+            <title>2.4.22</title>
+            <pubDate>Thu, 26 Nov 2026 20:23:48 +0900</pubDate>
+            <sparkle:version>262</sparkle:version>
+            <sparkle:shortVersionString>2.4.22</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<ul>
+<li>Search results narrow as you type, before Return, in list and icon views (also with size/date/kind filters)</li>
+<li>Moving to another folder while searching shows that folder's matches, not the previous folder's</li>
+<li>Menu Copy, Cut, Duplicate, Get Info and Move to Trash find the selected files again in list and icon views</li>
+</ul>]]></description>
+            <enclosure url="https://github.com/revivals47/hayate-app/releases/download/v2.4.22/Hayate-2.4.22.dmg" length="12132296" type="application/octet-stream" sparkle:edSignature="dot5haHZ9va3OuQchQ0AY2s/VHClm8t5AGpRNwwalujNRsmAG+h+KdsfJEZNxGP7LbNwMp2iOeVNuRTKCrafDA=="/>
+        </item>
+        <item>
             <title>2.4.21</title>
             <pubDate>Thu, 26 Nov 2026 20:04:40 +0900</pubDate>
             <sparkle:version>261</sparkle:version>
