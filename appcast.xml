@@ -3,6 +3,29 @@
     <channel>
         <title>Hayate</title>
         <item>
+            <title>2.4.26</title>
+            <pubDate>Sat, 28 Nov 2026 18:39:11 +0900</pubDate>
+            <sparkle:version>266</sparkle:version>
+            <sparkle:shortVersionString>2.4.26</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<ul>
+<li>List view: click the triangle next to a folder to open it in place; open several at once, keep the hierarchy visible, and select items across them</li>
+<li>Copy, move, Trash and other operations on a folder selected together with items inside it act on the folder once</li>
+<li>Archiving items with the same name from different opened folders is refused with a message, instead of one overwriting the other inside the archive</li>
+<li>Switching panes shows that pane's folder in the sidebar tree</li>
+<li>A long path no longer pushes the toolbar buttons into the » menu; the path scrolls inside its bar and keeps the current folder in view</li>
+<li>Right-click a column title in list view to show or hide columns, including Kind and Permissions; sorting by a hidden column shows it</li>
+<li>The toolbar's sort menu shows a checkmark on the current field; choose it again to reverse the order</li>
+<li>When sorting by kind, size, date or permissions, items that are equal are ordered by name</li>
+<li>Settings &gt; General &gt; Updates: automatic update checks can be turned off</li>
+<li>The Settings window no longer cuts off the top or bottom of a tab</li>
+<li>Icon view: the scrollbar now matches the folder's contents</li>
+<li>Third-party notices are easier to read: no hard line breaks, and each license text appears once with the components it covers</li>
+</ul>]]></description>
+            <enclosure url="https://github.com/revivals47/hayate-app/releases/download/v2.4.26/Hayate-2.4.26.dmg" length="12116232" type="application/octet-stream" sparkle:edSignature="XaPikkLaH8ghx71Y9676owSlAWiwmxW+PODwK546/8HV2lNBGohEDpVUGavCvMMWfFLA2OiwBsmJHC7bPQENBw=="/>
+        </item>
+        <item>
             <title>2.4.25</title>
             <pubDate>Fri, 27 Nov 2026 01:09:49 +0900</pubDate>
             <sparkle:version>265</sparkle:version>
